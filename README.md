@@ -1,4 +1,4 @@
-# Android Push Notifications with Firebase Cloud Messaging and [PubNub](https://www.pubnub.com/?devrel_gh=android-push-notifications).
+# Android Push Notification Example using Firebase Cloud Messaging and [PubNub](https://www.pubnub.com/?devrel_gh=android-push-notifications).
 
 When building mobile applications in Android (and mobile applications in general), it is tough to think of a use case where you don’t need to communicate with mobile devices to sync data and notify users. For example, let’s consider the following scenario. You are developing a realtime sports application which feeds its users with critical news during a game. A key feature to the app would be to send reliable push notifications to the users as soon as their favorite team scores.
 
