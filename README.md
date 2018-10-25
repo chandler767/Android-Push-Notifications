@@ -2,7 +2,7 @@
 
 When building mobile applications in Android (and mobile applications in general), it is tough to think of a use case where you don’t need to communicate with mobile devices to sync data and notify users. For example, let’s consider the following scenario. You are developing a realtime sports application which feeds its users with critical news during a game. A key feature to the app would be to send reliable push notifications to the users as soon as their favorite team scores.
 
-<img align="right" src="/poweredbypubnub_325.gif" alt="Push Notification Powered By PubNub" width="325" height="577" />
+<a href="https://www.pubnub.com/products/mobile-push-notifications/?devrel_gh=android-push-notifications" target="_blank" rel="noopener"><img align="right" src="/poweredbypubnub_325.gif" alt="Push Notification Powered By PubNub" width="325" height="577" /></a>
 
 ## How is PubNub Used With Push Notifications?
 If you are using PubNub Data Streams, you are already communicating in realtime with all of your devices – but if you want to send push notifications for a native Android experience, FCM is a great ally.
@@ -22,7 +22,7 @@ This project demonstrates how to setup FCM push notifications, enable PubNub pus
 </a>
 
 ## Sending Push Notifications From PubNub
-<img align="right" src="https://www.pubnub.com/blog/wp-content/uploads/2018/10/debugclient.png" alt="PubNub Debug Client" width="244" height="350" />
+<a href="https://www.pubnub.com/products/mobile-push-notifications/?devrel_gh=android-push-notifications" target="_blank" rel="noopener"><img align="right" src="https://www.pubnub.com/blog/wp-content/uploads/2018/10/debugclient.png" alt="PubNub Debug Client" width="244" height="350" /></a>
 
 It’s important to note that the devices don’t need to subscribe to a channel to receive notifications for that channel. The devices only need to register to the channel for push notifications and then they will receive push notifications for any messages that have push notifications keys for that device type.
 
