@@ -22,13 +22,9 @@ This project demonstrates how to setup FCM push notifications, enable PubNub pus
 </a>
 
 ## Sending Push Notifications From PubNub
-Edit MainActivity.java and replace “YOUR_PUB_KEY_HERE” and “YOUR_SUB_KEY_HERE” with your keys from the [PubNub Admin Dashboard](https://admin.pubnub.com/?devrel_gh=android-push-notifications) (always free).
-
-Build and run this app on a Android device or with a Android emulator.
-
 <img align="right" src="https://www.pubnub.com/blog/wp-content/uploads/2018/10/debugclient.png" alt="PubNub Debug Client" width="244" height="350" />
 
-You can send push notifications with PubNub by publishing a message to the channel or channels that the devices were added to. It’s important to note that the devices don’t need to subscribe to a channel to receive notifications for that channel.  The devices only need to register to the channel for push notifications and then they will receive push notifications for any messages that have push notifications keys for that device type.
+It’s important to note that the devices don’t need to subscribe to a channel to receive notifications for that channel. The devices only need to register to the channel for push notifications and then they will receive push notifications for any messages that have push notifications keys for that device type.
 
 * Associated FCM devices will receive only the data within the <code>pn_gcm</code> key.
 * Native PubNub subscribers will receive the entire object literal, including the notification keys.
