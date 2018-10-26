@@ -40,6 +40,8 @@ Click “Debug Console” and create a client with “Default Channel” set to�
 With the client you just created you can send a notification to your device by sending a message containing the <code>pn_gcm</code> keys.
 
 Send an Android push notification: <code>{"pn_gcm":{"notification":{"body":"Hello World."}}}</code><span class="aligncenter">
+    
+<a href="https://www.pubnub.com/products/mobile-push-notifications/?devrel_gh=android-push-notifications" target="_blank" rel="noopener"><img align="center" src="https://www.pubnub.com/wp-content/uploads/2018/10/helloworld_short.gif" alt="Hello World Android Push Notifications Powered By PubNub" /></a>
 
 Refer to the <a href="https://support.pubnub.com/support/solutions/articles/14000043605-how-can-i-troubleshoot-my-push-notification-issues-?devrel_gh=android-push-notifications" target="_blank" rel="noopener">troubleshooting guide</a> if you have issues sending push notifications.
 
