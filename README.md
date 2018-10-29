@@ -1,8 +1,8 @@
-# Android Push Notification Example using Firebase Cloud Messaging and [PubNub](https://www.pubnub.com/?devrel_gh=android-push-notifications).
+# Android Push Notification Example using Firebase Cloud Messaging and [PubNub](https://www.pubnub.com/blog/sending-android-mobile-push-notifications-firebase-cloud-messaging-pubnub/?devrel_gh=android-push-notifications).
 
 When building mobile applications in Android (and mobile applications in general), it is tough to think of a use case where you don’t need to communicate with mobile devices to sync data and notify users. For example, let’s consider the following scenario. You are developing a realtime sports application which feeds its users with critical news during a game. A key feature to the app would be to send reliable push notifications to the users as soon as their favorite team scores.
 
-<a href="https://www.pubnub.com/products/mobile-push-notifications/?devrel_gh=android-push-notifications" target="_blank" rel="noopener"><img align="right" src="/poweredbypubnub_325.gif" alt="Push Notification Powered By PubNub" width="325" height="577" /></a>
+<a href="https://www.pubnub.com/blog/sending-android-mobile-push-notifications-firebase-cloud-messaging-pubnub/?devrel_gh=android-push-notifications" target="_blank" rel="noopener"><img align="right" src="/poweredbypubnub_325.gif" alt="Push Notification Powered By PubNub" width="325" height="577" /></a>
 
 ## How is PubNub Used With Push Notifications?
 If you are using PubNub Data Streams, you are already communicating in realtime with all of your devices – but if you want to send push notifications for a native Android experience, FCM is a great ally.
@@ -15,9 +15,9 @@ This allows the application to send push notifications to devices registered on 
 
 Going back to the sports news app scenario, you can have your sports critic send the score in realtime from his phone and trigger a push notification to the rest of the audience’s devices. PubNub makes it simple – additional servers that you have to operate can be ruled out of the equation!
 
-This project demonstrates how to setup FCM push notifications, enable PubNub push notifications, and configure the [PubNub Android SDK](https://www.pubnub.com/docs/android-java/pubnub-java-sdk?devrel_gh=android-push-notifications) to receive push notifications. Learn more about how to get started with FCM push notifications powered by PubNub from the tutorial (coming soon).
+This project demonstrates how to setup FCM push notifications, enable PubNub push notifications, and configure the [PubNub Android SDK](https://www.pubnub.com/docs/android-java/pubnub-java-sdk?devrel_gh=android-push-notifications) to receive push notifications. Learn more from the tutorial [Sending Android Mobile Push Notifications with FCM and PubNub](https://www.pubnub.com/blog/sending-android-mobile-push-notifications-firebase-cloud-messaging-pubnub/?devrel_gh=android-push-notifications).
 
-<a href="https://www.pubnub.com/blog/?devrel_gh=android-push-notifications">
+<a href="https://www.pubnub.com/blog/sending-android-mobile-push-notifications-firebase-cloud-messaging-pubnub/?devrel_gh=android-push-notifications">
     <img alt="PubNub Blog" src="https://i.imgur.com/aJ927CO.png" width=260 height=98/>
 </a>
 
@@ -41,7 +41,7 @@ With the client you just created you can send a notification to your device by s
 
 Send an Android push notification: <code>{"pn_gcm":{"notification":{"body":"Hello World."}}}</code><span class="aligncenter">
     
-<a href="https://www.pubnub.com/products/mobile-push-notifications/?devrel_gh=android-push-notifications" target="_blank" rel="noopener"><img align="center" src="https://www.pubnub.com/wp-content/uploads/2018/10/helloworld_short.gif" alt="Hello World Android Push Notifications Powered By PubNub" /></a>
+<a href="https://www.pubnub.com/blog/sending-android-mobile-push-notifications-firebase-cloud-messaging-pubnub/?devrel_gh=android-push-notifications" target="_blank" rel="noopener"><img align="center" src="https://www.pubnub.com/wp-content/uploads/2018/10/helloworld_short.gif" alt="Hello World Android Push Notifications Powered By PubNub" /></a>
 
 Refer to the <a href="https://support.pubnub.com/support/solutions/articles/14000043605-how-can-i-troubleshoot-my-push-notification-issues-?devrel_gh=android-push-notifications" target="_blank" rel="noopener">troubleshooting guide</a> if you have issues sending push notifications.
 
